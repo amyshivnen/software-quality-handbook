@@ -109,3 +109,5 @@ The project will be successful if:
 - The GitHub repository shows clear collaboration between team members.
 - The handbook is easy to read and well structured.
 - Diagrams and examples help explain important concepts.
+
+Test line from Bjorn
