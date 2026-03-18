@@ -1,113 +1,143 @@
-# Project Plan
+# Software Quality Assurance Handbook – Project Plan
 
-## Project Overview
-The goal of this project is to create a **Software Quality Handbook** for a small startup team of 20 software engineers. The handbook will define best practices that engineers should follow to improve code quality, reduce defects in production, and ensure more predictable project progress.
+## Overview
+This project involves creating a Software Quality Assurance handbook for a small startup with 20 software engineers. The purpose of the handbook is to define best practices that help the team work in a more consistent way, reduce defects in production, and improve software quality across projects.
 
-The handbook will cover three main topics:
+The handbook will be created as a public GitHub repository using Markdown. The team will collaborate using trunk-based development, with feature branches, pull requests, and peer reviews.
 
-- Task Estimation in Scrum
-- Code Reviews
-- Automated Testing
+## Aim of the Project
+The aim of this project is to research and document practical best practices in software quality assurance in a format that is easy to skim read. The handbook will focus on three topics:
 
-Each section will summarize practical guidelines based on real-world engineering experiences and include links to useful articles and resources.
+- Testing (unit/integration testing)
+- CI/CD pipelines
+- Bug tracking & QA processes
 
-The final handbook will be hosted in a **public GitHub repository** using Markdown for formatting. Images and diagrams will be used where possible to clearly explain processes and best practices.
+Each section will include a short introduction, key guidelines, bad practices to avoid, useful references, and visuals where appropriate.
 
----
+## Team Collaboration Approach
+All team members will contribute to every topic. Each topic has a lead person for a particular section, but everyone is expected to research, review, and support the development of all three topics.
 
-## Development Process
+The team will work collaboratively through GitHub by creating feature branches for individual tasks, opening pull requests, and reviewing each other’s work before merging into the main branch.
 
-The team will follow a **Trunk-Based Development workflow** using Git and GitHub.
+## Topic Breakdown
 
-The workflow will be:
+### Testing (Unit / Integration Testing)
+- **Introduction:** Sally
+- **Topic Info:** Amy
+- **Conclusion:** Keira
 
-1. Work is divided into small tasks.
-2. Each task is completed in a **feature branch**.
-3. Developers commit regularly to their branch.
-4. A **Pull Request (PR)** is created to merge into the `main` branch.
-5. Another team member reviews the PR.
-6. After approval, the changes are merged into `main`.
+### CI/CD Pipelines
+- **Introduction:** Amy
+- **Topic Info:** Keira
+- **Conclusion:** Sally
 
-Example branch names:
+### Bug Tracking & QA Processes
+- **Introduction:** Keira
+- **Topic Info:** Sally
+- **Conclusion:** Amy
 
-- feature/project-plan
-- feature/task-estimation
-- feature/code-reviews
-- feature/automated-testing
-- feature/diagrams
+## Research Plan
+Each topic requires good quality sources that focus on practical experience and real-world advice rather than only theory.
 
----
+For each topic:
+- all team members will contribute research
+- the person responsible for the main topic information will lead the section
+- the introduction and conclusion writers will also support by finding useful sources and helping refine the content
+- each topic will include links to further reading
 
-## Project Tasks and Responsibilities
+This ensures that all members contribute to all topics and that at least two people are involved in every section.
 
-| Task | Description | Assigned To |
-|-----|-------------|-------------|
-| Create GitHub repository | Set up repository structure and README | Bjorn |
-| Create project plan | Define tasks and responsibilities | Bjorn |
-| Define handbook structure | Create markdown files and folders | Agnetha |
-| Research Task Estimation | Find 5 articles and identify themes | Bjorn, Benny |
-| Write Task Estimation section | Summarise best practices | Bjorn |
-| Research Code Reviews | Find articles about code review practices | Agnetha |
-| Write Code Review section | Write guidelines and examples | Agnetha, Benny |
-| Research Automated Testing | Find resources and examples | Benny |
-| Write Automated Testing section | Create best practice guidelines | Benny, Agnetha |
-| Create diagrams | Visual explanations for processes | Benny |
-| Review formatting | Ensure consistent markdown formatting | Agnetha |
-| Peer review content | Review pull requests and suggest improvements | All team members |
-| Final review | Check overall quality and clarity | Bjorn |
-| Write retrospective | Reflect on team workflow and improvements | All team members |
+## Team Roles
 
----
+### Amy
+- Created the repository
+- Project plan creator
+- Manages branching and pull request structure
+- Final integration of all sections
+- Creates the contribution table
+- Writes the retrospective with team input
 
-## Repository Structure
+### Sally
+- Formatting lead for Markdown consistency
+- Ensures headings and layout are standard across the handbook
+- Proofreads all sections
+- Checks that reference links and articles are correct and working
 
-The repository will contain the following structure:
-software-quality-handbook
-│
-├── README.md
-├── project-plan.md
-├── retrospective.md
-├── contributions.md
-│
-├── task-estimation.md
-├── code-reviews.md
-├── automated-testing.md
-│
-└── images/
+### Keira
+- Visuals and diagrams lead
+- Adds images and diagrams for each topic
+- Makes content more skim-readable
+- Helps improve clarity of explanations
 
-Each topic file will include:
+## GitHub Workflow
+The team will follow a trunk-based development workflow.
 
-- A short introduction
-- Key best practices
-- Bad practices to avoid
-- Diagrams or visual explanations
-- Links to reference articles
+### Process
+1. A team member creates a feature branch for their task
+2. Work is completed and committed to that branch
+3. A pull request is opened
+4. Two team members review the pull request
+5. Feedback is addressed if needed
+6. The branch is merged into `main`
 
----
+### Example Branch Names
+- `feature/testing-intro-sally`
+- `feature/testing-topic-info-amy`
+- `feature/cicd-conclusion-sally`
+- `feature/bugtracking-visuals-keira`
 
-## Collaboration
+This workflow helps keep the main branch stable and ensures all work is reviewed before merging.
 
-All team members are expected to contribute to the repository.
+## Code Review Plan
+Each team member is responsible for reviewing the work of the other two team members.
 
-Team collaboration will include:
+- **Sally** reviews Amy and Keira
+- **Amy** reviews Keira and Sally
+- **Keira** reviews Amy and Sally
 
-- Regular commits to feature branches
-- Pull request reviews by other team members
-- Shared responsibility for improving content
-- At least two members contributing to each topic
+During code reviews, team members should:
+- check for clarity and quality of writing
+- ensure formatting is consistent
+- confirm links and references are relevant
+- suggest improvements where needed
+- approve the pull request before merging
 
-This process helps maintain consistent quality and ensures that the handbook reflects the experience and knowledge of the whole team.
+## Tasks to Complete
 
----
+### Planning
+- Create project plan
+- Agree on handbook structure
+- Confirm responsibilities for all sections
+- Set up GitHub workflow and branch naming style
 
-## Success Criteria
+### Research
+- Research Testing (unit/integration testing)
+- Research CI/CD pipelines
+- Research Bug tracking & QA processes
+- Identify common themes across the sources
+- Collect links for further reading
 
-The project will be successful if:
+### Writing
+- Write introduction, main content, and conclusion for each topic
+- Summarise best practices
+- Identify bad practices to avoid
+- Add bullet points and clear headings
+- Keep sections easy to skim read
 
-- The handbook clearly explains software quality best practices.
-- Each topic contains well-researched guidelines.
-- The GitHub repository shows clear collaboration between team members.
-- The handbook is easy to read and well structured.
-- Diagrams and examples help explain important concepts.
+### Visual Content
+- Create or add diagrams for each topic
+- Add images where they improve understanding
+- Ensure visuals support the written content
 
-Test line from Bjorn
+### Review and Editing
+- Review all pull requests
+- Edit sections based on feedback
+- Standardise formatting across the handbook
+- Check spelling, grammar, and readability
+- Verify that all links work
+
+### Final Repository Content
+- Final handbook content
+- Project plan
+- Retrospective
+- Contribution table
