@@ -27,7 +27,10 @@
 - Visuals and diagrams lead  
 - Adds images and diagrams  
 - Improves readability and clarity  
-- Supports content presentation 
-
+- Supports content presentation.
 - Set up project file structure
-- 
+- Created files : Software Quality Handbook.md, Contribution table.md, Retrospective.md.
+- Research Core information on CI/CD Pipelines.
+- Created Diagrams for CI/CD Pipelines. 
+- Introduction to Bug Tracking & QA Processes 
+- Created references document, to help us keep track of referenced documents used. 
