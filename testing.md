@@ -11,3 +11,35 @@ This section focuses on two main types of testing:
 - Integration testing – testing how different parts of the system work together
 
 Using both types of testing helps reduce defects, improve confidence in changes, and make releases more stable. This section gives practical guidelines, common mistakes to avoid, and useful resources for further reading.
+
+### Key Practices
+
+- Write small and focused unit tests that test one piece of functionality at a time  
+- Run tests automatically as part of the development process  
+- Use integration tests to ensure different parts of the system work together correctly  
+- Keep tests independent so they do not rely on each other  
+- Run tests frequently to catch issues early  
+
+### Bad Practices to Avoid
+
+- Relying too much on manual testing  
+- Writing tests that are slow or difficult to maintain  
+- Ignoring failing tests  
+- Not testing edge cases or unusual inputs  
+- Having inconsistent testing practices across the team  
+
+### Test Pyramid Diagram
+               [ End-to-End Tests ]
+       ---------------------
+      [ Integration Tests ]
+     -----------------------
+    [     Unit Tests      ]
+   -------------------------
+
+The test pyramid shows the recommended balance of tests in a project:
+
+- **Unit Tests (bottom):** Fast, small tests that cover most of the code  
+- **Integration Tests (middle):** Test how components work together  
+- **End-to-End Tests (top):** Full system tests, slower and fewer in number  
+
+A good testing strategy focuses on having many unit tests, fewer integration tests, and minimal end-to-end tests to keep the test suite fast and reliable.
