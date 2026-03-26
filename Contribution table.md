@@ -28,6 +28,5 @@
 - Adds images and diagrams  
 - Improves readability and clarity  
 - Supports content presentation 
-
 - Set up project file structure
-- 
+- Contributed the main file information for CI/CD pipelines.
