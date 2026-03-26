@@ -40,12 +40,17 @@ Intro : what is it?
 Goal : 
 
 ---
+## Link to Unit/Integration Testing  
 
-## CI/CD Pipeline Overview 
+## Link to CI/CD Pipelines 
+
+[View CI/CD Pipelines Section](cd-pipelines.md)
 
 ```md 
 ## CI/CD Lifecycle 
 ![CI/CD Pipeline](images/CI-CD-Pipeline-diagram)
+
+## Link to Bug Tracking & QA Processes
 
 ## How it Works
 1. Commit - Developer pushes code 
